@@ -1,5 +1,5 @@
 .hero-section {
-  background: #dbdee7;
+  background: #1e2449;
 
   @include media(desktop) {
   }
@@ -7,20 +7,21 @@
 
 .hero-bg-wrapper {
   padding-top: 80px;
-  padding-bottom: 370px;
+  padding-bottom: 296px;
   max-width: 375px;
   margin-left: auto;
   margin-right: auto;
   background-image: url(../img/hero/hero-bg-mob.jpg);
   background-repeat: no-repeat;
   background-position: bottom center;
-  background-size: cover;
+  background-size: auto;
 
   @include media(desktop) {
-    padding-top: 112px;
-    padding-bottom: 460px;
+    padding-top: 108px;
+    padding-bottom: 443px;
     max-width: 1440px;
     background-image: url(../img/hero/hero-bg-desk.jpg);
+    background-size: cover;
   }
 }
 
@@ -39,19 +40,49 @@
   }
 }
 
-.hero-title-img {
+.hero-main-title {
+  font-family: 'Titan One', sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 1.1;
+  text-transform: uppercase;
+  text-align: center;
+  color: #f1fdff;
+  max-width: 313px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 32px;
 
   @include media(desktop) {
+    font-size: 56px;
+    line-height: 1.3;
+    max-width: max-content;
+  }
+}
+
+.hero-subtitle {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
+  text-align: center;
+  color: #f1fdff;
+  max-width: 313px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
+
+  @include media(desktop) {
+    font-size: 32px;
+    max-width: max-content;
+    margin-bottom: 64px;
   }
 }
 
 .hero-btn {
   box-shadow: 2px 2px 2px 0 rgba(58, 93, 149, 0.4);
-  background: #3f2c69;
-  border: 1px solid #3a5d95;
+  background: #ffe926;
+  border: 1px solid #353b62;
   border-radius: 16px;
   padding: 13px 35px;
   display: flex;
@@ -65,7 +96,7 @@
   &:hover,
   &:focus,
   &:active {
-    background: linear-gradient(180deg, #3f2c69 0%, #2f293b 100%);
+    background: linear-gradient(180deg, #ffe926 0%, #fabc13 100%);
   }
 
   @include media(desktop) {

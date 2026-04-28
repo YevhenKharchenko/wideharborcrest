@@ -1,5 +1,5 @@
 .footer {
-  background: #becfe3;
+  background: #1e2449;
 
   @include media(desktop) {
   }
@@ -55,25 +55,25 @@
 }
 
 .footer-link {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   text-decoration: underline;
   text-decoration-skip-ink: none;
-  color: #2f293b;
+  color: #f1fdff;
 
   @include media(desktop) {
   }
 }
 
 .footer-text {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
-  color: #2f293b;
+  color: #f1fdff;
 
   @include media(desktop) {
   }
