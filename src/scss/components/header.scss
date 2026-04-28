@@ -1,0 +1,132 @@
+.header {
+  background: #775d8f;
+  padding: 12px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+
+  @include media(desktop) {
+    padding: 16px 0;
+  }
+}
+
+.header-container {
+  padding: 0 24px;
+
+  @include media(desktop) {
+    padding: 0 120px;
+  }
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+  @include media(desktop) {
+  }
+}
+
+.header-logo-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @include media(desktop) {
+  }
+}
+
+.header-logo-img {
+  min-width: 24px;
+
+  @include media(desktop) {
+    min-width: 32px;
+  }
+}
+
+.nav-list {
+  display: none;
+
+  @include media(desktop) {
+    display: flex;
+    align-items: stretch;
+    justify-content: end;
+    width: 100%;
+    gap: 32px;
+  }
+}
+
+.nav-list-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-list-link {
+  @include media(desktop) {
+    padding: 8px 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #f0f9fe;
+    opacity: 0.8;
+    width: 100%;
+    max-width: max-content;
+    height: 100%;
+    position: relative;
+    transition:
+      color 0.3s ease-in-out,
+      opacity 0.3s ease-in-out,
+      text-shadow 0.3s ease-in-out;
+
+    &::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 1px;
+      background-color: #f0f9fe;
+      transform: scaleX(0);
+      transform-origin: center;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    &:hover,
+    &:focus,
+    &:active,
+    &.active {
+      text-shadow: 0 0 0 currentColor;
+      opacity: 1;
+
+      &::after {
+        transform: scaleX(1);
+      }
+    }
+  }
+}
+
+.nav-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @include media(desktop) {
+    display: none;
+  }
+}
+
+.close-btn {
+  display: none;
+  justify-content: center;
+  align-items: center;
+
+  @include media(desktop) {
+    display: none;
+  }
+}

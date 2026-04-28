@@ -1,0 +1,33 @@
+.privacy-header {
+  background: #f0f9fe;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+
+  @include media(desktop) {
+  }
+}
+
+.privacy-header-link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: center;
+  color: #514865;
+  max-width: max-content;
+
+  @include media(desktop) {
+  }
+}
+
+.arrow-back-icon {
+  stroke: #514865;
+  fill: none;
+}

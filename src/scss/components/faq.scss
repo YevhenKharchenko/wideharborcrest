@@ -1,0 +1,144 @@
+.faq-section {
+  @include media(desktop) {
+  }
+}
+
+.faq-section-wrapper {
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    max-width: 1440px;
+  }
+}
+
+.faq-title {
+  @include media(desktop) {
+  }
+}
+
+.faq-bg-wrapper {
+  padding-top: 48px;
+  padding-bottom: 64px;
+
+  @include media(desktop) {
+    padding-bottom: 80px;
+  }
+}
+
+.faq-container {
+  @include media(desktop) {
+  }
+}
+
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+
+  @include media(desktop) {
+  }
+}
+
+.faq-list-item {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  width: 100%;
+
+  @include media(desktop) {
+    max-width: 1062px;
+  }
+}
+
+.faq-item-question-wrapper {
+  border-bottom: 2px solid #ac92c4;
+  padding-top: 8px;
+  padding-bottom: 6px;
+
+  @include media(desktop) {
+  }
+}
+
+.faq-item-answer-wrapper {
+  max-height: 0;
+  overflow: hidden;
+  transition:
+    height 0.3s ease-in-out,
+    opacity 0.3s ease-in-out,
+    padding 0.3s ease-in-out;
+  opacity: 0;
+
+  @include media(desktop) {
+  }
+}
+
+.faq-top-text-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  width: 100%;
+
+  @include media(desktop) {
+  }
+}
+
+.faq-toggle-symbol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.faq-icon {
+  min-width: 24px;
+}
+
+.faq-btn-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #514865;
+  text-align: left;
+
+  @include media(desktop) {
+  }
+}
+
+.faq-bottom-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2f293b;
+
+  @include media(desktop) {
+  }
+}
+
+.is-visible {
+  max-height: 500px;
+  opacity: 1;
+
+  @include media(desktop) {
+    max-height: 100px;
+  }
+}
+
+.faq-list-item.faq-open .faq-toggle-symbol {
+  transform: rotate(180deg);
+}
+
+.faq-list-item.faq-open .faq-item-answer-wrapper {
+  padding-top: 16px;
+  opacity: 1;
+  max-height: 500px;
+
+  @include media(desktop) {
+  }
+}

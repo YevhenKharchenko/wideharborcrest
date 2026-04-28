@@ -1,0 +1,68 @@
+.progression-section {
+  background: #dbdee7;
+}
+
+.progression-section-wrapper {
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    max-width: 1440px;
+  }
+}
+
+.progression-bg-wrapper {
+  padding-top: 48px;
+  padding-bottom: 64px;
+
+  @include media(desktop) {
+    padding-bottom: 80px;
+  }
+}
+
+.progression-container {
+  @include media(desktop) {
+  }
+}
+
+.progression-title-wrapper {
+  @include media(desktop) {
+  }
+}
+
+.progression-title {
+  @include media(desktop) {
+  }
+}
+
+.progression-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+
+  @include media(desktop) {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+.progression-img {
+  @include media(desktop) {
+    min-width: 343px;
+  }
+}
+
+.progression-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #2f293b;
+
+  @include media(desktop) {
+    max-width: 349px;
+  }
+}

@@ -1,0 +1,63 @@
+.about-section {
+  background: #f0f9fe;
+
+  @include media(desktop) {
+  }
+}
+
+.about-bg-wrapper {
+  padding-top: 48px;
+  padding-bottom: 64px;
+
+  @include media(desktop) {
+    padding-bottom: 80px;
+  }
+}
+
+.about-container {
+  @include media(desktop) {
+  }
+}
+
+.about-title-wrapper {
+  @include media(desktop) {
+  }
+}
+
+.about-title {
+  @include media(desktop) {
+  }
+}
+
+.about-content-wrapper {
+  @include media(desktop) {
+  }
+}
+
+.about-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #2f293b;
+  max-width: 323px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    max-width: max-content;
+  }
+}
+
+.about-text-br {
+  display: none;
+
+  @include media(desktop) {
+    display: block;
+  }
+}
+
+.about-text-span {
+  font-weight: 700;
+}
