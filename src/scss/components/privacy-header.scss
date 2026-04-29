@@ -1,5 +1,5 @@
 .privacy-header {
-  background: #f0f9fe;
+  background: #3e507a;
   padding-top: 12px;
   padding-bottom: 12px;
   position: fixed;
@@ -20,7 +20,7 @@
   font-size: 12px;
   line-height: 1.5;
   text-align: center;
-  color: #514865;
+  color: #939fb6;
   max-width: max-content;
 
   @include media(desktop) {
@@ -28,6 +28,4 @@
 }
 
 .arrow-back-icon {
-  stroke: #514865;
-  fill: none;
 }

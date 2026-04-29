@@ -1,5 +1,4 @@
 .contact-section {
-  background: #dbdee7;
 }
 
 .contact-section-wrapper {
@@ -24,6 +23,10 @@
 }
 
 .contact-container {
+  padding: 0;
+
+  @include media(desktop) {
+  }
 }
 
 .contact-title-wrapper {
@@ -51,26 +54,27 @@
   @include media(desktop) {
     flex-direction: row;
     justify-content: center;
+    margin-bottom: 16px;
   }
 }
 
 .contact-text {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #2f293b;
+  color: #f1fdff;
 
   @include media(desktop) {
   }
 }
 
 .contact-email-link {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #2f293b;
+  color: #f1fdff;
   display: flex;
   align-items: center;
   justify-content: center;

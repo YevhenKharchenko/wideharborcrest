@@ -3,4 +3,4 @@ Disallow: /admin/
 Disallow: /private/
 Allow: /
 
-Sitemap: https://quietvalleycrest.space/sitemap.xml
+Sitemap: https://wideharborcrest.pro/sitemap.xml

@@ -1,6 +1,4 @@
 .testimonials-section {
-  background: #dbdee7;
-
   @include media(desktop) {
   }
 }
@@ -40,8 +38,8 @@
 }
 
 .testimonials-slide {
-  background: #f0f9fe;
-  border: 2px solid #ac92c4;
+  background: #1e2449;
+  border: 2px solid #7a91cb;
   border-radius: 16px;
   padding: 14px;
   display: flex;
@@ -49,7 +47,7 @@
   gap: 16px;
 
   @include media(desktop) {
-    max-width: 210px;
+    max-width: 200px;
   }
 }
 
@@ -68,7 +66,7 @@
   font-size: 12px;
   line-height: 1.6;
   text-align: center;
-  color: #514865;
+  color: #939fb6;
 
   @include media(desktop) {
   }
@@ -80,11 +78,11 @@
 }
 
 .testimonials-item-text {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #514865;
+  color: #939fb6;
 
   @include media(desktop) {
   }

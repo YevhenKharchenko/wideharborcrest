@@ -1,5 +1,5 @@
 .about-section {
-  background: #f0f9fe;
+  background: #1e2449;
 
   @include media(desktop) {
   }
@@ -35,26 +35,18 @@
 }
 
 .about-text {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
-  color: #2f293b;
-  max-width: 323px;
+  color: #f1fdff;
+  max-width: 333px;
   margin-left: auto;
   margin-right: auto;
 
   @include media(desktop) {
-    max-width: max-content;
-  }
-}
-
-.about-text-br {
-  display: none;
-
-  @include media(desktop) {
-    display: block;
+    max-width: 821px;
   }
 }
 

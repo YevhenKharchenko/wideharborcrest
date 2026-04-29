@@ -1,4 +1,6 @@
 .faq-section {
+  background: #1e2449;
+
   @include media(desktop) {
   }
 }
@@ -55,7 +57,7 @@
 }
 
 .faq-item-question-wrapper {
-  border-bottom: 2px solid #ac92c4;
+  border-bottom: 2px solid #7a91cb;
   padding-top: 8px;
   padding-bottom: 6px;
 
@@ -99,23 +101,24 @@
 }
 
 .faq-btn-text {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 1.5;
-  color: #514865;
+  color: #939fb6;
   text-align: left;
 
   @include media(desktop) {
+    font-size: 24px;
   }
 }
 
 .faq-bottom-text {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #2f293b;
+  color: #f1fdff;
 
   @include media(desktop) {
   }
